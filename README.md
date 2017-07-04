@@ -26,11 +26,11 @@ components at appropriate Routes. They do not need to be nested routes.
 3. Now we will refactor. Often sites have a navigation bar at the top with links to the 
 various sections of the website.
 
-Creating such a nav bar using React Router links can be a very powerful way to provide a 
-good user experience for your single page app by allowing the user to easily move through 
-your site. Create a `Dashboard` Component with React Router Links that link to the different 
-pages in the app from each page. Just like a nav bar, there should be a link to each section
-of the web application.
+	Creating such a nav bar using React Router links can be a very powerful way to provide a 
+	good user experience for your single page app by allowing the user to easily move through 
+	your site. Create a `Dashboard` Component with React Router Links that link to the different 
+	pages in the app from each page. Just like a nav bar, there should be a link to each section
+	of the web application.
 
 4. Next, refactor the Routes in the Router to allow the same nav links to appear at the top 
 of each page using nested Routes. This will involve making sure the three main sub-apps 
